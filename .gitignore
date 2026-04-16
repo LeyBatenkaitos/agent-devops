@@ -1,0 +1,48 @@
+# Environments
+venv/
+env/
+.env/
+venv*/
+env*/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local Session Storage
+sessions/
+*.sqlite
+*.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and databases
+*.log
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Credentials / Secrets
+.env
+*.pem
+*.key
+*.p12
+*.json # Use with caution, mostly for gcp credentials but ensure not ignoring needed json files. If you need configs, ignore specifically like gcp-credentials.json
+gcp-credentials.json
+aws-credentials.csv

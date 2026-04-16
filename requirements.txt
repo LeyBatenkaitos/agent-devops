@@ -1,0 +1,6 @@
+strands
+strands-agents-tools
+boto3
+google-cloud-compute
+google-cloud-iam
+redis
