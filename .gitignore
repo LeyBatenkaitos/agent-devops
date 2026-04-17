@@ -43,6 +43,9 @@ build/
 *.pem
 *.key
 *.p12
-*.json # Use with caution, mostly for gcp credentials but ensure not ignoring needed json files. If you need configs, ignore specifically like gcp-credentials.json
-gcp-credentials.json
+# GCP / AWS credential files (targeted patterns — never blanket *.json)
+gcp-credentials*.json
+*-sa-key.json
+service-account*.json
+application_default_credentials.json
 aws-credentials.csv
