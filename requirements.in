@@ -1,0 +1,38 @@
+# DevOps Agent - Direct dependencies
+# Compile with: pip-compile requirements.in
+# Pin exact versions here; let pip-compile pin transitive dependencies.
+
+# Strands agent framework
+strands-agents
+strands-agents-tools
+
+# MCP (fetch server etc.)
+mcp
+mcp-server-fetch
+
+# AWS
+boto3
+
+# GCP clients
+google-cloud-compute
+google-cloud-iam
+google-cloud-resource-manager
+google-cloud-storage
+google-cloud-run
+google-cloud-asset
+
+# Gemini via Vertex AI (LLM backend for the agent)
+google-genai
+
+# .env loader for local CLI convenience
+python-dotenv
+
+# Terminal UI (streaming markdown + status indicators)
+rich
+
+# Observability (used when OTEL_ENABLED=true)
+opentelemetry-sdk
+opentelemetry-exporter-gcp-trace
+
+# Dev / test (install with: pip install -r requirements-dev.txt)
+# kept separate via pip-compile --output-file=requirements-dev.txt requirements-dev.in

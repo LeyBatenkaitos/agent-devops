@@ -1,0 +1,11 @@
+# Compile with: pip-compile requirements-dev.in --output-file=requirements-dev.txt
+
+-c requirements.in
+
+pytest
+pytest-asyncio
+pytest-mock
+pytest-cov
+ruff
+mypy
+pip-tools

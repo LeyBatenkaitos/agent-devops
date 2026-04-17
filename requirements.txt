@@ -1,6 +1,18 @@
-strands
+# This file is kept for compatibility with the existing README instructions.
+# Authoritative dependency source is requirements.in; regenerate with:
+#   pip-compile requirements.in
+# until that is run in a resolver environment, install from requirements.in directly:
+#   pip install -r requirements.in
+
+strands-agents
 strands-agents-tools
+mcp
 boto3
 google-cloud-compute
 google-cloud-iam
-redis
+google-cloud-resource-manager
+google-cloud-storage
+google-cloud-run
+google-cloud-asset
+opentelemetry-sdk
+opentelemetry-exporter-gcp-trace
